@@ -1,0 +1,28 @@
+{
+    "directory": "./ast",
+    "c": {
+      "input_file": "./header.h",
+      "platforms": {
+        "aarch64-apple-darwin": {},
+        "x86_64-apple-darwin": {}
+      },
+      "frameworks": [
+        "CoreFoundation",
+        "IOKit",
+        "CoreGraphics"
+      ],
+      "is_enabled_macro_objects": true,
+      "is_enabled_system_declarations": true,
+      "functions_allowed": [
+        "CGWindowListCreate"
+      ],
+      "macro_objects_allowed": [
+        "kCGNullWindowID"
+      ]
+    },
+    "cs": {
+      "output_file": "./CoreGraphics.cs",
+      "namespace": "Apple",
+      "library_name": "/System/Library/Frameworks/CoreGraphics.framework/Versions/Current/CoreGraphics"
+    }
+  }

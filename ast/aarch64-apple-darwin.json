@@ -1,0 +1,183 @@
+{
+  "fileName": "/Users/lstranks/Programming/pinvoke-macos-CGWindowListCreate/header.h",
+  "platform_requested": "aarch64-apple-darwin",
+  "platform_actual": "arm64-apple-macosx12.0.0",
+  "macro_objects": {
+    "kCGNullWindowID": {
+      "type": {
+        "name": "CGWindowID",
+        "kind": "typeAlias",
+        "size_of": 4,
+        "location": {
+          "line": 0,
+          "column": 0
+        }
+      },
+      "value": "0",
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "CGWindow.h",
+        "line": 42,
+        "column": 0
+      }
+    }
+  },
+  "variables": {},
+  "functions": {
+    "CGWindowListCreate": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "CFArrayRef",
+        "kind": "pointer",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null,
+        "inner_type": {
+          "name": "void*",
+          "kind": "pointer",
+          "size_of": 8,
+          "align_of": 8,
+          "location": null,
+          "inner_type": {
+            "name": "void",
+            "kind": "primitive",
+            "size_of": 0,
+            "location": null
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "option",
+          "type": {
+            "name": "CGWindowListOption",
+            "kind": "typeAlias",
+            "size_of": 4,
+            "align_of": 4,
+            "location": {
+              "fileName": "CGWindow.h",
+              "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+              "line": 137,
+              "column": 30
+            }
+          },
+          "location": {
+            "fileName": "CGWindow.h",
+            "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+            "line": 137,
+            "column": 30
+          }
+        },
+        {
+          "name": "relativeToWindow",
+          "type": {
+            "name": "CGWindowID",
+            "kind": "typeAlias",
+            "size_of": 4,
+            "align_of": 4,
+            "location": {
+              "fileName": "CGWindow.h",
+              "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+              "line": 15,
+              "column": 18
+            }
+          },
+          "location": {
+            "fileName": "CGWindow.h",
+            "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+            "line": 15,
+            "column": 18
+          }
+        }
+      ],
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 180,
+        "column": 33
+      }
+    }
+  },
+  "records": {},
+  "enums": {},
+  "type_aliases": {
+    "CFArrayRef": {
+      "underlying_type": {
+        "name": "void*",
+        "kind": "pointer",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null,
+        "inner_type": {
+          "name": "void",
+          "kind": "primitive",
+          "size_of": 0,
+          "location": null
+        }
+      },
+      "location": {
+        "fileName": "CFArray.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h",
+        "line": 108,
+        "column": 59
+      }
+    },
+    "CGWindowListOption": {
+      "underlying_type": {
+        "name": "uint32_t",
+        "kind": "typeAlias",
+        "size_of": 4,
+        "align_of": 4,
+        "location": {
+          "fileName": "_uint32_t.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
+          "line": 31,
+          "column": 22
+        }
+      },
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 137,
+        "column": 30
+      }
+    },
+    "uint32_t": {
+      "underlying_type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "location": {
+        "fileName": "_uint32_t.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
+        "line": 31,
+        "column": 22
+      }
+    },
+    "CGWindowID": {
+      "underlying_type": {
+        "name": "uint32_t",
+        "kind": "typeAlias",
+        "size_of": 4,
+        "align_of": 4,
+        "location": {
+          "fileName": "_uint32_t.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
+          "line": 31,
+          "column": 22
+        }
+      },
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 15,
+        "column": 18
+      }
+    }
+  },
+  "opaque_types": {},
+  "function_pointers": {}
+}
