@@ -13,11 +13,20 @@
       ],
       "is_enabled_macro_objects": true,
       "is_enabled_system_declarations": true,
+      "is_enabled_enums_dangling": true,
       "functions_allowed": [
-        "CGWindowListCreate"
+        "CGWindowListCreate",
+        "CGWindowListCreateDescriptionFromArray",
+        "CFArrayGetCount",
+        "CFArrayGetValueAtIndex",
+        "CFDictionaryGetCount",
+        "CFDictionaryGetValue"
       ],
       "macro_objects_allowed": [
         "kCGNullWindowID"
+      ],
+      "enum_constants_allowed": [
+        "kCGWindowListOptionAll"
       ]
     },
     "cs": {
