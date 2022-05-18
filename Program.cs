@@ -8,6 +8,17 @@ public static class Program
 {
     private static unsafe void Main()
     {
+        // We need permission to capture screen to get the kCGWindowName of a window.
+        if (!CGPreflightScreenCaptureAccess())
+        {
+            // We don't have permission, let's try requesting it. This will popup a prompt the first time.
+            // Second time or more it will not prompt again.
+            if (!CGRequestScreenCaptureAccess())
+            {
+                Console.WriteLine("Please manually enable screen capture permission in System Preferences for the application.");   
+            }
+        }
+        
         var kCGWindowNumber = CFString("kCGWindowNumber");
         var kCGWindowOwnerPID = CFString("kCGWindowOwnerPID");
         var kCGWindowOwnerName = CFString("kCGWindowOwnerName");
@@ -20,7 +31,7 @@ public static class Program
         var windowsDictionaries = CGWindowListCreateDescriptionFromArray(windowsIdentifiers);
         
         var windowsCount = CFArrayGetCount(windowsDictionaries);
-        Console.WriteLine("Windows count: " + windowsCount);
+        Console.WriteLine("Windows count: " + windowsCount.Data);
 
         for (var i = 0; i < windowsCount; i++)
         {

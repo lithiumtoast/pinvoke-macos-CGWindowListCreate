@@ -93,445 +93,6 @@
         "column": 13
       }
     },
-    "CFArrayGetCount": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "CFIndex",
-        "kind": "typeAlias",
-        "size_of": 8,
-        "align_of": 8,
-        "location": {
-          "fileName": "CFBase.h",
-          "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
-          "line": 475,
-          "column": 21
-        }
-      },
-      "parameters": [
-        {
-          "name": "theArray",
-          "type": {
-            "name": "CFArrayRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        }
-      ],
-      "location": {
-        "fileName": "CFArray.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h",
-        "line": 279,
-        "column": 9
-      }
-    },
-    "CFBooleanGetValue": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "Boolean",
-        "kind": "typeAlias",
-        "size_of": 1,
-        "align_of": 1,
-        "location": {
-          "fileName": "MacTypes.h",
-          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
-          "line": 309,
-          "column": 41
-        }
-      },
-      "parameters": [
-        {
-          "name": "boolean",
-          "type": {
-            "name": "CFBooleanRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        }
-      ],
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 29,
-        "column": 9
-      }
-    },
-    "CFDictionaryGetValueIfPresent": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "Boolean",
-        "kind": "typeAlias",
-        "size_of": 1,
-        "align_of": 1,
-        "location": {
-          "fileName": "MacTypes.h",
-          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
-          "line": 309,
-          "column": 41
-        }
-      },
-      "parameters": [
-        {
-          "name": "theDict",
-          "type": {
-            "name": "CFDictionaryRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        },
-        {
-          "name": "key",
-          "type": {
-            "name": "void*",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void",
-              "kind": "primitive",
-              "size_of": 0,
-              "location": null
-            }
-          },
-          "location": null
-        },
-        {
-          "name": "value",
-          "type": {
-            "name": "void**",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        }
-      ],
-      "location": {
-        "fileName": "CFDictionary.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h",
-        "line": 539,
-        "column": 9
-      }
-    },
-    "CFStringGetCStringPtr": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "char*",
-        "kind": "pointer",
-        "size_of": 8,
-        "align_of": 8,
-        "location": null,
-        "inner_type": {
-          "name": "char",
-          "kind": "primitive",
-          "size_of": 1,
-          "align_of": 1,
-          "location": null
-        }
-      },
-      "parameters": [
-        {
-          "name": "theString",
-          "type": {
-            "name": "CFStringRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        },
-        {
-          "name": "encoding",
-          "type": {
-            "name": "CFStringEncoding",
-            "kind": "typeAlias",
-            "size_of": 4,
-            "align_of": 4,
-            "location": {
-              "fileName": "CFString.h",
-              "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
-              "line": 99,
-              "column": 16
-            }
-          },
-          "location": {
-            "fileName": "CFString.h",
-            "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
-            "line": 99,
-            "column": 16
-          }
-        }
-      ],
-      "location": {
-        "fileName": "CFString.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
-        "line": 340,
-        "column": 13
-      }
-    },
-    "CFNumberGetType": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "CFNumberType",
-        "kind": "typeAlias",
-        "size_of": 8,
-        "align_of": 8,
-        "location": {
-          "fileName": "CFNumber.h",
-          "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-          "line": 31,
-          "column": 26
-        }
-      },
-      "parameters": [
-        {
-          "name": "number",
-          "type": {
-            "name": "CFNumberRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        }
-      ],
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 81,
-        "column": 14
-      }
-    },
-    "CGWindowListCreateDescriptionFromArray": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "CFArrayRef",
-        "kind": "pointer",
-        "size_of": 8,
-        "align_of": 8,
-        "location": null,
-        "inner_type": {
-          "name": "void*",
-          "kind": "pointer",
-          "size_of": 8,
-          "align_of": 8,
-          "location": null,
-          "inner_type": {
-            "name": "void",
-            "kind": "primitive",
-            "size_of": 0,
-            "location": null
-          }
-        }
-      },
-      "parameters": [
-        {
-          "name": "windowArray",
-          "type": {
-            "name": "CFArrayRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        }
-      ],
-      "location": {
-        "fileName": "CGWindow.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
-        "line": 192,
-        "column": 33
-      }
-    },
-    "CFNumberGetValue": {
-      "calling_convention": "cdecl",
-      "return_type": {
-        "name": "Boolean",
-        "kind": "typeAlias",
-        "size_of": 1,
-        "align_of": 1,
-        "location": {
-          "fileName": "MacTypes.h",
-          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
-          "line": 309,
-          "column": 41
-        }
-      },
-      "parameters": [
-        {
-          "name": "number",
-          "type": {
-            "name": "CFNumberRef",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void*",
-              "kind": "pointer",
-              "size_of": 8,
-              "align_of": 8,
-              "location": null,
-              "inner_type": {
-                "name": "void",
-                "kind": "primitive",
-                "size_of": 0,
-                "location": null
-              }
-            }
-          },
-          "location": null
-        },
-        {
-          "name": "theType",
-          "type": {
-            "name": "CFNumberType",
-            "kind": "typeAlias",
-            "size_of": 8,
-            "align_of": 8,
-            "location": {
-              "fileName": "CFNumber.h",
-              "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-              "line": 31,
-              "column": 26
-            }
-          },
-          "location": {
-            "fileName": "CFNumber.h",
-            "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-            "line": 31,
-            "column": 26
-          }
-        },
-        {
-          "name": "valuePtr",
-          "type": {
-            "name": "void*",
-            "kind": "pointer",
-            "size_of": 8,
-            "align_of": 8,
-            "location": null,
-            "inner_type": {
-              "name": "void",
-              "kind": "primitive",
-              "size_of": 0,
-              "location": null
-            }
-          },
-          "location": null
-        }
-      ],
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 105,
-        "column": 9
-      }
-    },
     "CFStringCreateWithCString": {
       "calling_convention": "cdecl",
       "return_type": {
@@ -624,6 +185,251 @@
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
         "line": 222,
         "column": 13
+      }
+    },
+    "CFDictionaryGetValueIfPresent": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "Boolean",
+        "kind": "typeAlias",
+        "size_of": 1,
+        "align_of": 1,
+        "location": {
+          "fileName": "MacTypes.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
+          "line": 309,
+          "column": 41
+        }
+      },
+      "parameters": [
+        {
+          "name": "theDict",
+          "type": {
+            "name": "CFDictionaryRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        },
+        {
+          "name": "key",
+          "type": {
+            "name": "void*",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void",
+              "kind": "primitive",
+              "size_of": 0,
+              "location": null
+            }
+          },
+          "location": null
+        },
+        {
+          "name": "value",
+          "type": {
+            "name": "void**",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        }
+      ],
+      "location": {
+        "fileName": "CFDictionary.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h",
+        "line": 539,
+        "column": 9
+      }
+    },
+    "CFNumberGetValue": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "Boolean",
+        "kind": "typeAlias",
+        "size_of": 1,
+        "align_of": 1,
+        "location": {
+          "fileName": "MacTypes.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
+          "line": 309,
+          "column": 41
+        }
+      },
+      "parameters": [
+        {
+          "name": "number",
+          "type": {
+            "name": "CFNumberRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        },
+        {
+          "name": "theType",
+          "type": {
+            "name": "CFNumberType",
+            "kind": "typeAlias",
+            "size_of": 8,
+            "align_of": 8,
+            "location": {
+              "fileName": "CFNumber.h",
+              "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+              "line": 31,
+              "column": 26
+            }
+          },
+          "location": {
+            "fileName": "CFNumber.h",
+            "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+            "line": 31,
+            "column": 26
+          }
+        },
+        {
+          "name": "valuePtr",
+          "type": {
+            "name": "void*",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void",
+              "kind": "primitive",
+              "size_of": 0,
+              "location": null
+            }
+          },
+          "location": null
+        }
+      ],
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 105,
+        "column": 9
+      }
+    },
+    "CGPreflightScreenCaptureAccess": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "_Bool",
+        "kind": "primitive",
+        "size_of": 1,
+        "align_of": 1,
+        "location": null
+      },
+      "parameters": [],
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 290,
+        "column": 16
+      }
+    },
+    "CGWindowListCreateDescriptionFromArray": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "CFArrayRef",
+        "kind": "pointer",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null,
+        "inner_type": {
+          "name": "void*",
+          "kind": "pointer",
+          "size_of": 8,
+          "align_of": 8,
+          "location": null,
+          "inner_type": {
+            "name": "void",
+            "kind": "primitive",
+            "size_of": 0,
+            "location": null
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "windowArray",
+          "type": {
+            "name": "CFArrayRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        }
+      ],
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 192,
+        "column": 33
       }
     },
     "CFRelease": {
@@ -739,40 +545,239 @@
         "line": 180,
         "column": 33
       }
+    },
+    "CFArrayGetCount": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "CFIndex",
+        "kind": "typeAlias",
+        "size_of": 8,
+        "align_of": 8,
+        "location": {
+          "fileName": "CFBase.h",
+          "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
+          "line": 475,
+          "column": 21
+        }
+      },
+      "parameters": [
+        {
+          "name": "theArray",
+          "type": {
+            "name": "CFArrayRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        }
+      ],
+      "location": {
+        "fileName": "CFArray.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h",
+        "line": 279,
+        "column": 9
+      }
+    },
+    "CFStringGetCStringPtr": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "char*",
+        "kind": "pointer",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null,
+        "inner_type": {
+          "name": "char",
+          "kind": "primitive",
+          "size_of": 1,
+          "align_of": 1,
+          "location": null
+        }
+      },
+      "parameters": [
+        {
+          "name": "theString",
+          "type": {
+            "name": "CFStringRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        },
+        {
+          "name": "encoding",
+          "type": {
+            "name": "CFStringEncoding",
+            "kind": "typeAlias",
+            "size_of": 4,
+            "align_of": 4,
+            "location": {
+              "fileName": "CFString.h",
+              "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
+              "line": 99,
+              "column": 16
+            }
+          },
+          "location": {
+            "fileName": "CFString.h",
+            "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
+            "line": 99,
+            "column": 16
+          }
+        }
+      ],
+      "location": {
+        "fileName": "CFString.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
+        "line": 340,
+        "column": 13
+      }
+    },
+    "CFBooleanGetValue": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "Boolean",
+        "kind": "typeAlias",
+        "size_of": 1,
+        "align_of": 1,
+        "location": {
+          "fileName": "MacTypes.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
+          "line": 309,
+          "column": 41
+        }
+      },
+      "parameters": [
+        {
+          "name": "boolean",
+          "type": {
+            "name": "CFBooleanRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        }
+      ],
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 29,
+        "column": 9
+      }
+    },
+    "CFNumberGetType": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "CFNumberType",
+        "kind": "typeAlias",
+        "size_of": 8,
+        "align_of": 8,
+        "location": {
+          "fileName": "CFNumber.h",
+          "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+          "line": 31,
+          "column": 26
+        }
+      },
+      "parameters": [
+        {
+          "name": "number",
+          "type": {
+            "name": "CFNumberRef",
+            "kind": "pointer",
+            "size_of": 8,
+            "align_of": 8,
+            "location": null,
+            "inner_type": {
+              "name": "void*",
+              "kind": "pointer",
+              "size_of": 8,
+              "align_of": 8,
+              "location": null,
+              "inner_type": {
+                "name": "void",
+                "kind": "primitive",
+                "size_of": 0,
+                "location": null
+              }
+            }
+          },
+          "location": null
+        }
+      ],
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 81,
+        "column": 14
+      }
+    },
+    "CGRequestScreenCaptureAccess": {
+      "calling_convention": "cdecl",
+      "return_type": {
+        "name": "_Bool",
+        "kind": "primitive",
+        "size_of": 1,
+        "align_of": 1,
+        "location": null
+      },
+      "parameters": [],
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 293,
+        "column": 16
+      }
     }
   },
   "records": {},
   "enums": {
-    "dispatch_autorelease_frequency_t": {
-      "type_integer": {
-        "name": "unsigned long",
-        "kind": "primitive",
-        "size_of": 8,
-        "align_of": 8,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "DISPATCH_AUTORELEASE_FREQUENCY_INHERIT",
-          "value": 0
-        },
-        {
-          "name": "DISPATCH_AUTORELEASE_FREQUENCY_WORK_ITEM",
-          "value": 1
-        },
-        {
-          "name": "DISPATCH_AUTORELEASE_FREQUENCY_NEVER",
-          "value": 2
-        }
-      ],
-      "location": {
-        "fileName": "queue.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/dispatch/queue.h",
-        "line": 812,
-        "column": 1
-      }
-    },
-    "acl_entry_id_t": {
+    "task_role": {
       "type_integer": {
         "name": "int",
         "kind": "primitive",
@@ -782,113 +787,183 @@
       },
       "values": [
         {
-          "name": "ACL_FIRST_ENTRY",
-          "value": 0
-        },
-        {
-          "name": "ACL_NEXT_ENTRY",
+          "name": "TASK_RENICED",
           "value": -1
         },
         {
-          "name": "ACL_LAST_ENTRY",
-          "value": -2
-        }
-      ],
-      "location": {
-        "fileName": "acl.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
-        "line": 115,
-        "column": 9
-      }
-    },
-    "acl_flag_t": {
-      "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "ACL_FLAG_DEFER_INHERIT",
-          "value": 1
-        },
-        {
-          "name": "ACL_FLAG_NO_INHERIT",
-          "value": 131072
-        },
-        {
-          "name": "ACL_ENTRY_INHERITED",
-          "value": 16
-        },
-        {
-          "name": "ACL_ENTRY_FILE_INHERIT",
-          "value": 32
-        },
-        {
-          "name": "ACL_ENTRY_DIRECTORY_INHERIT",
-          "value": 64
-        },
-        {
-          "name": "ACL_ENTRY_LIMIT_INHERIT",
-          "value": 128
-        },
-        {
-          "name": "ACL_ENTRY_ONLY_INHERIT",
-          "value": 256
-        }
-      ],
-      "location": {
-        "fileName": "acl.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
-        "line": 122,
-        "column": 9
-      }
-    },
-    "task_latency_qos": {
-      "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "LATENCY_QOS_TIER_UNSPECIFIED",
+          "name": "TASK_UNSPECIFIED",
           "value": 0
         },
         {
-          "name": "LATENCY_QOS_TIER_0",
-          "value": 16711681
+          "name": "TASK_FOREGROUND_APPLICATION",
+          "value": 1
         },
         {
-          "name": "LATENCY_QOS_TIER_1",
-          "value": 16711682
+          "name": "TASK_BACKGROUND_APPLICATION",
+          "value": 2
         },
         {
-          "name": "LATENCY_QOS_TIER_2",
-          "value": 16711683
+          "name": "TASK_CONTROL_APPLICATION",
+          "value": 3
         },
         {
-          "name": "LATENCY_QOS_TIER_3",
-          "value": 16711684
+          "name": "TASK_GRAPHICS_SERVER",
+          "value": 4
         },
         {
-          "name": "LATENCY_QOS_TIER_4",
-          "value": 16711685
+          "name": "TASK_THROTTLE_APPLICATION",
+          "value": 5
         },
         {
-          "name": "LATENCY_QOS_TIER_5",
-          "value": 16711686
+          "name": "TASK_NONUI_APPLICATION",
+          "value": 6
+        },
+        {
+          "name": "TASK_DEFAULT_APPLICATION",
+          "value": 7
+        },
+        {
+          "name": "TASK_DARWINBG_APPLICATION",
+          "value": 8
         }
       ],
       "location": {
         "fileName": "task_policy.h",
         "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_policy.h",
-        "line": 137,
+        "line": 113,
+        "column": 14
+      }
+    },
+    "task_throughput_qos": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "THROUGHPUT_QOS_TIER_UNSPECIFIED",
+          "value": 0
+        },
+        {
+          "name": "THROUGHPUT_QOS_TIER_0",
+          "value": 16646145
+        },
+        {
+          "name": "THROUGHPUT_QOS_TIER_1",
+          "value": 16646146
+        },
+        {
+          "name": "THROUGHPUT_QOS_TIER_2",
+          "value": 16646147
+        },
+        {
+          "name": "THROUGHPUT_QOS_TIER_3",
+          "value": 16646148
+        },
+        {
+          "name": "THROUGHPUT_QOS_TIER_4",
+          "value": 16646149
+        },
+        {
+          "name": "THROUGHPUT_QOS_TIER_5",
+          "value": 16646150
+        }
+      ],
+      "location": {
+        "fileName": "task_policy.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_policy.h",
+        "line": 147,
         "column": 6
+      }
+    },
+    "NXMouseButton": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "NX_OneButton",
+          "value": 0
+        },
+        {
+          "name": "NX_LeftButton",
+          "value": 1
+        },
+        {
+          "name": "NX_RightButton",
+          "value": 2
+        }
+      ],
+      "location": {
+        "fileName": "IOHIDTypes.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hidsystem/IOHIDTypes.h",
+        "line": 66,
+        "column": 9
+      }
+    },
+    "task_inspect_flavor": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "TASK_INSPECT_BASIC_COUNTS",
+          "value": 1
+        }
+      ],
+      "location": {
+        "fileName": "task_inspect.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_inspect.h",
+        "line": 42,
+        "column": 6
+      }
+    },
+    "EvCmd": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "EVNOP",
+          "value": 0
+        },
+        {
+          "name": "EVHIDE",
+          "value": 1
+        },
+        {
+          "name": "EVSHOW",
+          "value": 2
+        },
+        {
+          "name": "EVMOVE",
+          "value": 3
+        },
+        {
+          "name": "EVLEVEL",
+          "value": 4
+        }
+      ],
+      "location": {
+        "fileName": "IOHIDTypes.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hidsystem/IOHIDTypes.h",
+        "line": 148,
+        "column": 9
       }
     },
     "filesec_property_t": {
@@ -940,6 +1015,198 @@
         "column": 9
       }
     },
+    "acl_entry_id_t": {
+      "type_integer": {
+        "name": "int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "ACL_FIRST_ENTRY",
+          "value": 0
+        },
+        {
+          "name": "ACL_NEXT_ENTRY",
+          "value": -1
+        },
+        {
+          "name": "ACL_LAST_ENTRY",
+          "value": -2
+        }
+      ],
+      "location": {
+        "fileName": "acl.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
+        "line": 115,
+        "column": 9
+      }
+    },
+    "task_latency_qos": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "LATENCY_QOS_TIER_UNSPECIFIED",
+          "value": 0
+        },
+        {
+          "name": "LATENCY_QOS_TIER_0",
+          "value": 16711681
+        },
+        {
+          "name": "LATENCY_QOS_TIER_1",
+          "value": 16711682
+        },
+        {
+          "name": "LATENCY_QOS_TIER_2",
+          "value": 16711683
+        },
+        {
+          "name": "LATENCY_QOS_TIER_3",
+          "value": 16711684
+        },
+        {
+          "name": "LATENCY_QOS_TIER_4",
+          "value": 16711685
+        },
+        {
+          "name": "LATENCY_QOS_TIER_5",
+          "value": 16711686
+        }
+      ],
+      "location": {
+        "fileName": "task_policy.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_policy.h",
+        "line": 137,
+        "column": 6
+      }
+    },
+    "acl_perm_t": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "ACL_READ_DATA",
+          "value": 2
+        },
+        {
+          "name": "ACL_LIST_DIRECTORY",
+          "value": 2
+        },
+        {
+          "name": "ACL_WRITE_DATA",
+          "value": 4
+        },
+        {
+          "name": "ACL_ADD_FILE",
+          "value": 4
+        },
+        {
+          "name": "ACL_EXECUTE",
+          "value": 8
+        },
+        {
+          "name": "ACL_SEARCH",
+          "value": 8
+        },
+        {
+          "name": "ACL_DELETE",
+          "value": 16
+        },
+        {
+          "name": "ACL_APPEND_DATA",
+          "value": 32
+        },
+        {
+          "name": "ACL_ADD_SUBDIRECTORY",
+          "value": 32
+        },
+        {
+          "name": "ACL_DELETE_CHILD",
+          "value": 64
+        },
+        {
+          "name": "ACL_READ_ATTRIBUTES",
+          "value": 128
+        },
+        {
+          "name": "ACL_WRITE_ATTRIBUTES",
+          "value": 256
+        },
+        {
+          "name": "ACL_READ_EXTATTRIBUTES",
+          "value": 512
+        },
+        {
+          "name": "ACL_WRITE_EXTATTRIBUTES",
+          "value": 1024
+        },
+        {
+          "name": "ACL_READ_SECURITY",
+          "value": 2048
+        },
+        {
+          "name": "ACL_WRITE_SECURITY",
+          "value": 4096
+        },
+        {
+          "name": "ACL_CHANGE_OWNER",
+          "value": 8192
+        },
+        {
+          "name": "ACL_SYNCHRONIZE",
+          "value": 1048576
+        }
+      ],
+      "location": {
+        "fileName": "acl.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
+        "line": 69,
+        "column": 9
+      }
+    },
+    "dispatch_autorelease_frequency_t": {
+      "type_integer": {
+        "name": "unsigned long",
+        "kind": "primitive",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "DISPATCH_AUTORELEASE_FREQUENCY_INHERIT",
+          "value": 0
+        },
+        {
+          "name": "DISPATCH_AUTORELEASE_FREQUENCY_WORK_ITEM",
+          "value": 1
+        },
+        {
+          "name": "DISPATCH_AUTORELEASE_FREQUENCY_NEVER",
+          "value": 2
+        }
+      ],
+      "location": {
+        "fileName": "queue.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/dispatch/queue.h",
+        "line": 812,
+        "column": 1
+      }
+    },
     "clockid_t": {
       "type_integer": {
         "name": "unsigned int",
@@ -986,6 +1253,91 @@
         "fileName": "time.h",
         "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/time.h",
         "line": 153,
+        "column": 9
+      }
+    },
+    "ptrauth_key": {
+      "type_integer": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "values": [
+        {
+          "name": "ptrauth_key_asia",
+          "value": 0
+        },
+        {
+          "name": "ptrauth_key_asib",
+          "value": 1
+        },
+        {
+          "name": "ptrauth_key_asda",
+          "value": 2
+        },
+        {
+          "name": "ptrauth_key_asdb",
+          "value": 3
+        },
+        {
+          "name": "ptrauth_key_process_independent_code",
+          "value": 0
+        },
+        {
+          "name": "ptrauth_key_process_dependent_code",
+          "value": 1
+        },
+        {
+          "name": "ptrauth_key_process_independent_data",
+          "value": 2
+        },
+        {
+          "name": "ptrauth_key_process_dependent_data",
+          "value": 3
+        },
+        {
+          "name": "ptrauth_key_function_pointer",
+          "value": 0
+        },
+        {
+          "name": "ptrauth_key_return_address",
+          "value": 1
+        },
+        {
+          "name": "ptrauth_key_frame_pointer",
+          "value": 3
+        },
+        {
+          "name": "ptrauth_key_block_function",
+          "value": 0
+        },
+        {
+          "name": "ptrauth_key_cxx_vtable_pointer",
+          "value": 2
+        },
+        {
+          "name": "ptrauth_key_method_list_pointer",
+          "value": 2
+        },
+        {
+          "name": "ptrauth_key_objc_isa_pointer",
+          "value": 2
+        },
+        {
+          "name": "ptrauth_key_objc_super_pointer",
+          "value": 2
+        },
+        {
+          "name": "ptrauth_key_block_descriptor_pointer",
+          "value": 2
+        }
+      ],
+      "location": {
+        "fileName": "ptrauth.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/ptrauth.h",
+        "line": 27,
         "column": 9
       }
     },
@@ -1098,7 +1450,7 @@
         "column": 6
       }
     },
-    "NXMouseButton": {
+    "acl_flag_t": {
       "type_integer": {
         "name": "unsigned int",
         "kind": "primitive",
@@ -1108,26 +1460,42 @@
       },
       "values": [
         {
-          "name": "NX_OneButton",
-          "value": 0
-        },
-        {
-          "name": "NX_LeftButton",
+          "name": "ACL_FLAG_DEFER_INHERIT",
           "value": 1
         },
         {
-          "name": "NX_RightButton",
-          "value": 2
+          "name": "ACL_FLAG_NO_INHERIT",
+          "value": 131072
+        },
+        {
+          "name": "ACL_ENTRY_INHERITED",
+          "value": 16
+        },
+        {
+          "name": "ACL_ENTRY_FILE_INHERIT",
+          "value": 32
+        },
+        {
+          "name": "ACL_ENTRY_DIRECTORY_INHERIT",
+          "value": 64
+        },
+        {
+          "name": "ACL_ENTRY_LIMIT_INHERIT",
+          "value": 128
+        },
+        {
+          "name": "ACL_ENTRY_ONLY_INHERIT",
+          "value": 256
         }
       ],
       "location": {
-        "fileName": "IOHIDTypes.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hidsystem/IOHIDTypes.h",
-        "line": 66,
+        "fileName": "acl.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
+        "line": 122,
         "column": 9
       }
     },
-    "task_throughput_qos": {
+    "acl_tag_t": {
       "type_integer": {
         "name": "unsigned int",
         "kind": "primitive",
@@ -1137,101 +1505,22 @@
       },
       "values": [
         {
-          "name": "THROUGHPUT_QOS_TIER_UNSPECIFIED",
+          "name": "ACL_UNDEFINED_TAG",
           "value": 0
         },
         {
-          "name": "THROUGHPUT_QOS_TIER_0",
-          "value": 16646145
-        },
-        {
-          "name": "THROUGHPUT_QOS_TIER_1",
-          "value": 16646146
-        },
-        {
-          "name": "THROUGHPUT_QOS_TIER_2",
-          "value": 16646147
-        },
-        {
-          "name": "THROUGHPUT_QOS_TIER_3",
-          "value": 16646148
-        },
-        {
-          "name": "THROUGHPUT_QOS_TIER_4",
-          "value": 16646149
-        },
-        {
-          "name": "THROUGHPUT_QOS_TIER_5",
-          "value": 16646150
-        }
-      ],
-      "location": {
-        "fileName": "task_policy.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_policy.h",
-        "line": 147,
-        "column": 6
-      }
-    },
-    "os_clockid_t": {
-      "type_integer": {
-        "name": "uint32_t",
-        "kind": "typeAlias",
-        "size_of": 4,
-        "align_of": 4,
-        "location": {
-          "fileName": "_uint32_t.h",
-          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
-          "line": 31,
-          "column": 22
-        }
-      },
-      "values": [
-        {
-          "name": "OS_CLOCK_MACH_ABSOLUTE_TIME",
-          "value": 32
-        }
-      ],
-      "location": {
-        "fileName": "clock.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/os/clock.h",
-        "line": 14,
-        "column": 1
-      }
-    },
-    "EvCmd": {
-      "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "EVNOP",
-          "value": 0
-        },
-        {
-          "name": "EVHIDE",
+          "name": "ACL_EXTENDED_ALLOW",
           "value": 1
         },
         {
-          "name": "EVSHOW",
+          "name": "ACL_EXTENDED_DENY",
           "value": 2
-        },
-        {
-          "name": "EVMOVE",
-          "value": 3
-        },
-        {
-          "name": "EVLEVEL",
-          "value": 4
         }
       ],
       "location": {
-        "fileName": "IOHIDTypes.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hidsystem/IOHIDTypes.h",
-        "line": 148,
+        "fileName": "acl.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
+        "line": 91,
         "column": 9
       }
     },
@@ -1278,84 +1567,6 @@
         "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
         "line": 98,
         "column": 9
-      }
-    },
-    "task_inspect_flavor": {
-      "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "TASK_INSPECT_BASIC_COUNTS",
-          "value": 1
-        }
-      ],
-      "location": {
-        "fileName": "task_inspect.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_inspect.h",
-        "line": 42,
-        "column": 6
-      }
-    },
-    "task_role": {
-      "type_integer": {
-        "name": "int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "TASK_RENICED",
-          "value": -1
-        },
-        {
-          "name": "TASK_UNSPECIFIED",
-          "value": 0
-        },
-        {
-          "name": "TASK_FOREGROUND_APPLICATION",
-          "value": 1
-        },
-        {
-          "name": "TASK_BACKGROUND_APPLICATION",
-          "value": 2
-        },
-        {
-          "name": "TASK_CONTROL_APPLICATION",
-          "value": 3
-        },
-        {
-          "name": "TASK_GRAPHICS_SERVER",
-          "value": 4
-        },
-        {
-          "name": "TASK_THROTTLE_APPLICATION",
-          "value": 5
-        },
-        {
-          "name": "TASK_NONUI_APPLICATION",
-          "value": 6
-        },
-        {
-          "name": "TASK_DEFAULT_APPLICATION",
-          "value": 7
-        },
-        {
-          "name": "TASK_DARWINBG_APPLICATION",
-          "value": 8
-        }
-      ],
-      "location": {
-        "fileName": "task_policy.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/task_policy.h",
-        "line": 113,
-        "column": 14
       }
     },
     "virtual_memory_guard_exception_codes": {
@@ -1408,91 +1619,6 @@
         "column": 9
       }
     },
-    "ptrauth_key": {
-      "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "ptrauth_key_asia",
-          "value": 0
-        },
-        {
-          "name": "ptrauth_key_asib",
-          "value": 1
-        },
-        {
-          "name": "ptrauth_key_asda",
-          "value": 2
-        },
-        {
-          "name": "ptrauth_key_asdb",
-          "value": 3
-        },
-        {
-          "name": "ptrauth_key_process_independent_code",
-          "value": 0
-        },
-        {
-          "name": "ptrauth_key_process_dependent_code",
-          "value": 1
-        },
-        {
-          "name": "ptrauth_key_process_independent_data",
-          "value": 2
-        },
-        {
-          "name": "ptrauth_key_process_dependent_data",
-          "value": 3
-        },
-        {
-          "name": "ptrauth_key_function_pointer",
-          "value": 0
-        },
-        {
-          "name": "ptrauth_key_return_address",
-          "value": 1
-        },
-        {
-          "name": "ptrauth_key_frame_pointer",
-          "value": 3
-        },
-        {
-          "name": "ptrauth_key_block_function",
-          "value": 0
-        },
-        {
-          "name": "ptrauth_key_cxx_vtable_pointer",
-          "value": 2
-        },
-        {
-          "name": "ptrauth_key_method_list_pointer",
-          "value": 2
-        },
-        {
-          "name": "ptrauth_key_objc_isa_pointer",
-          "value": 2
-        },
-        {
-          "name": "ptrauth_key_objc_super_pointer",
-          "value": 2
-        },
-        {
-          "name": "ptrauth_key_block_descriptor_pointer",
-          "value": 2
-        }
-      ],
-      "location": {
-        "fileName": "ptrauth.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/ptrauth.h",
-        "line": 27,
-        "column": 9
-      }
-    },
     "dispatch_block_flags_t": {
       "type_integer": {
         "name": "unsigned long",
@@ -1534,168 +1660,34 @@
         "column": 1
       }
     },
-    "acl_perm_t": {
+    "os_clockid_t": {
       "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
+        "name": "uint32_t",
+        "kind": "typeAlias",
         "size_of": 4,
         "align_of": 4,
-        "location": null
+        "location": {
+          "fileName": "_uint32_t.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
+          "line": 31,
+          "column": 22
+        }
       },
       "values": [
         {
-          "name": "ACL_READ_DATA",
-          "value": 2
-        },
-        {
-          "name": "ACL_LIST_DIRECTORY",
-          "value": 2
-        },
-        {
-          "name": "ACL_WRITE_DATA",
-          "value": 4
-        },
-        {
-          "name": "ACL_ADD_FILE",
-          "value": 4
-        },
-        {
-          "name": "ACL_EXECUTE",
-          "value": 8
-        },
-        {
-          "name": "ACL_SEARCH",
-          "value": 8
-        },
-        {
-          "name": "ACL_DELETE",
-          "value": 16
-        },
-        {
-          "name": "ACL_APPEND_DATA",
+          "name": "OS_CLOCK_MACH_ABSOLUTE_TIME",
           "value": 32
-        },
-        {
-          "name": "ACL_ADD_SUBDIRECTORY",
-          "value": 32
-        },
-        {
-          "name": "ACL_DELETE_CHILD",
-          "value": 64
-        },
-        {
-          "name": "ACL_READ_ATTRIBUTES",
-          "value": 128
-        },
-        {
-          "name": "ACL_WRITE_ATTRIBUTES",
-          "value": 256
-        },
-        {
-          "name": "ACL_READ_EXTATTRIBUTES",
-          "value": 512
-        },
-        {
-          "name": "ACL_WRITE_EXTATTRIBUTES",
-          "value": 1024
-        },
-        {
-          "name": "ACL_READ_SECURITY",
-          "value": 2048
-        },
-        {
-          "name": "ACL_WRITE_SECURITY",
-          "value": 4096
-        },
-        {
-          "name": "ACL_CHANGE_OWNER",
-          "value": 8192
-        },
-        {
-          "name": "ACL_SYNCHRONIZE",
-          "value": 1048576
         }
       ],
       "location": {
-        "fileName": "acl.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
-        "line": 69,
-        "column": 9
-      }
-    },
-    "acl_tag_t": {
-      "type_integer": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "values": [
-        {
-          "name": "ACL_UNDEFINED_TAG",
-          "value": 0
-        },
-        {
-          "name": "ACL_EXTENDED_ALLOW",
-          "value": 1
-        },
-        {
-          "name": "ACL_EXTENDED_DENY",
-          "value": 2
-        }
-      ],
-      "location": {
-        "fileName": "acl.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/acl.h",
-        "line": 91,
-        "column": 9
+        "fileName": "clock.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/os/clock.h",
+        "line": 14,
+        "column": 1
       }
     }
   },
   "type_aliases": {
-    "CFStringRef": {
-      "underlying_type": {
-        "name": "void*",
-        "kind": "pointer",
-        "size_of": 8,
-        "align_of": 8,
-        "location": null,
-        "inner_type": {
-          "name": "void",
-          "kind": "primitive",
-          "size_of": 0,
-          "location": null
-        }
-      },
-      "location": {
-        "fileName": "CFBase.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
-        "line": 481,
-        "column": 61
-      }
-    },
-    "CFArrayRef": {
-      "underlying_type": {
-        "name": "void*",
-        "kind": "pointer",
-        "size_of": 8,
-        "align_of": 8,
-        "location": null,
-        "inner_type": {
-          "name": "void",
-          "kind": "primitive",
-          "size_of": 0,
-          "location": null
-        }
-      },
-      "location": {
-        "fileName": "CFArray.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h",
-        "line": 108,
-        "column": 59
-      }
-    },
     "UInt32": {
       "underlying_type": {
         "name": "unsigned int",
@@ -1726,7 +1718,7 @@
         "column": 21
       }
     },
-    "CFAllocatorRef": {
+    "CFStringRef": {
       "underlying_type": {
         "name": "void*",
         "kind": "pointer",
@@ -1743,63 +1735,8 @@
       "location": {
         "fileName": "CFBase.h",
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
-        "line": 545,
-        "column": 58
-      }
-    },
-    "CGWindowListOption": {
-      "underlying_type": {
-        "name": "uint32_t",
-        "kind": "typeAlias",
-        "size_of": 4,
-        "align_of": 4,
-        "location": {
-          "fileName": "_uint32_t.h",
-          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
-          "line": 31,
-          "column": 22
-        }
-      },
-      "location": {
-        "fileName": "CGWindow.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
-        "line": 137,
-        "column": 30
-      }
-    },
-    "CFStringEncoding": {
-      "underlying_type": {
-        "name": "UInt32",
-        "kind": "typeAlias",
-        "size_of": 4,
-        "align_of": 4,
-        "location": {
-          "fileName": "MacTypes.h",
-          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
-          "line": 121,
-          "column": 41
-        }
-      },
-      "location": {
-        "fileName": "CFString.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
-        "line": 99,
-        "column": 16
-      }
-    },
-    "uint32_t": {
-      "underlying_type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "location": {
-        "fileName": "_uint32_t.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
-        "line": 31,
-        "column": 22
+        "line": 481,
+        "column": 61
       }
     },
     "CFDictionaryRef": {
@@ -1823,42 +1760,7 @@
         "column": 69
       }
     },
-    "Boolean": {
-      "underlying_type": {
-        "name": "unsigned char",
-        "kind": "primitive",
-        "size_of": 1,
-        "align_of": 1,
-        "location": null
-      },
-      "location": {
-        "fileName": "MacTypes.h",
-        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
-        "line": 309,
-        "column": 41
-      }
-    },
-    "CFNumberType": {
-      "underlying_type": {
-        "name": "CFIndex",
-        "kind": "typeAlias",
-        "size_of": 8,
-        "align_of": 8,
-        "location": {
-          "fileName": "CFBase.h",
-          "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
-          "line": 475,
-          "column": 21
-        }
-      },
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 26
-      }
-    },
-    "CGWindowID": {
+    "CGWindowListOption": {
       "underlying_type": {
         "name": "uint32_t",
         "kind": "typeAlias",
@@ -1874,8 +1776,8 @@
       "location": {
         "fileName": "CGWindow.h",
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
-        "line": 15,
-        "column": 18
+        "line": 137,
+        "column": 30
       }
     },
     "CFTypeRef": {
@@ -1897,6 +1799,48 @@
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
         "line": 479,
         "column": 42
+      }
+    },
+    "CFArrayRef": {
+      "underlying_type": {
+        "name": "void*",
+        "kind": "pointer",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null,
+        "inner_type": {
+          "name": "void",
+          "kind": "primitive",
+          "size_of": 0,
+          "location": null
+        }
+      },
+      "location": {
+        "fileName": "CFArray.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h",
+        "line": 108,
+        "column": 59
+      }
+    },
+    "CFAllocatorRef": {
+      "underlying_type": {
+        "name": "void*",
+        "kind": "pointer",
+        "size_of": 8,
+        "align_of": 8,
+        "location": null,
+        "inner_type": {
+          "name": "void",
+          "kind": "primitive",
+          "size_of": 0,
+          "location": null
+        }
+      },
+      "location": {
+        "fileName": "CFBase.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
+        "line": 545,
+        "column": 58
       }
     },
     "CFNumberRef": {
@@ -1940,45 +1884,101 @@
         "line": 18,
         "column": 62
       }
+    },
+    "CGWindowID": {
+      "underlying_type": {
+        "name": "uint32_t",
+        "kind": "typeAlias",
+        "size_of": 4,
+        "align_of": 4,
+        "location": {
+          "fileName": "_uint32_t.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
+          "line": 31,
+          "column": 22
+        }
+      },
+      "location": {
+        "fileName": "CGWindow.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGWindow.h",
+        "line": 15,
+        "column": 18
+      }
+    },
+    "uint32_t": {
+      "underlying_type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "location": {
+        "fileName": "_uint32_t.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h",
+        "line": 31,
+        "column": 22
+      }
+    },
+    "CFNumberType": {
+      "underlying_type": {
+        "name": "CFIndex",
+        "kind": "typeAlias",
+        "size_of": 8,
+        "align_of": 8,
+        "location": {
+          "fileName": "CFBase.h",
+          "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h",
+          "line": 475,
+          "column": 21
+        }
+      },
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 26
+      }
+    },
+    "Boolean": {
+      "underlying_type": {
+        "name": "unsigned char",
+        "kind": "primitive",
+        "size_of": 1,
+        "align_of": 1,
+        "location": null
+      },
+      "location": {
+        "fileName": "MacTypes.h",
+        "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
+        "line": 309,
+        "column": 41
+      }
+    },
+    "CFStringEncoding": {
+      "underlying_type": {
+        "name": "UInt32",
+        "kind": "typeAlias",
+        "size_of": 4,
+        "align_of": 4,
+        "location": {
+          "fileName": "MacTypes.h",
+          "filePath": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/MacTypes.h",
+          "line": 121,
+          "column": 41
+        }
+      },
+      "location": {
+        "fileName": "CFString.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h",
+        "line": 99,
+        "column": 16
+      }
     }
   },
   "opaque_types": {},
   "function_pointers": {},
   "enum_constants": {
-    "kCFNumberDoubleType": {
-      "name": "kCFNumberDoubleType",
-      "type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "value": "13",
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 9
-      }
-    },
-    "kCFNumberLongLongType": {
-      "name": "kCFNumberLongLongType",
-      "type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "value": "11",
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 9
-      }
-    },
     "kCFNumberFloat32Type": {
       "name": "kCFNumberFloat32Type",
       "type": {
@@ -1989,6 +1989,23 @@
         "location": null
       },
       "value": "5",
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 9
+      }
+    },
+    "kCFNumberShortType": {
+      "name": "kCFNumberShortType",
+      "type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "value": "8",
       "location": {
         "fileName": "CFNumber.h",
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
@@ -2013,6 +2030,40 @@
         "column": 9
       }
     },
+    "kCFNumberLongLongType": {
+      "name": "kCFNumberLongLongType",
+      "type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "value": "11",
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 9
+      }
+    },
+    "kCFNumberFloatType": {
+      "name": "kCFNumberFloatType",
+      "type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "value": "12",
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 9
+      }
+    },
     "kCFNumberSInt16Type": {
       "name": "kCFNumberSInt16Type",
       "type": {
@@ -2030,8 +2081,8 @@
         "column": 9
       }
     },
-    "kCFNumberCFIndexType": {
-      "name": "kCFNumberCFIndexType",
+    "kCFNumberLongType": {
+      "name": "kCFNumberLongType",
       "type": {
         "name": "unsigned int",
         "kind": "primitive",
@@ -2039,7 +2090,41 @@
         "align_of": 4,
         "location": null
       },
-      "value": "14",
+      "value": "10",
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 9
+      }
+    },
+    "kCFNumberDoubleType": {
+      "name": "kCFNumberDoubleType",
+      "type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "value": "13",
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 9
+      }
+    },
+    "kCFNumberNSIntegerType": {
+      "name": "kCFNumberNSIntegerType",
+      "type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "value": "15",
       "location": {
         "fileName": "CFNumber.h",
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
@@ -2064,6 +2149,23 @@
         "column": 9
       }
     },
+    "kCFNumberCFIndexType": {
+      "name": "kCFNumberCFIndexType",
+      "type": {
+        "name": "unsigned int",
+        "kind": "primitive",
+        "size_of": 4,
+        "align_of": 4,
+        "location": null
+      },
+      "value": "14",
+      "location": {
+        "fileName": "CFNumber.h",
+        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
+        "line": 31,
+        "column": 9
+      }
+    },
     "kCFNumberCharType": {
       "name": "kCFNumberCharType",
       "type": {
@@ -2081,8 +2183,8 @@
         "column": 9
       }
     },
-    "kCFNumberSInt64Type": {
-      "name": "kCFNumberSInt64Type",
+    "kCFNumberCGFloatType": {
+      "name": "kCFNumberCGFloatType",
       "type": {
         "name": "unsigned int",
         "kind": "primitive",
@@ -2090,24 +2192,7 @@
         "align_of": 4,
         "location": null
       },
-      "value": "4",
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 9
-      }
-    },
-    "kCFNumberLongType": {
-      "name": "kCFNumberLongType",
-      "type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "value": "10",
+      "value": "16",
       "location": {
         "fileName": "CFNumber.h",
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
@@ -2149,57 +2234,6 @@
         "column": 9
       }
     },
-    "kCFNumberShortType": {
-      "name": "kCFNumberShortType",
-      "type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "value": "8",
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 9
-      }
-    },
-    "kCFNumberCGFloatType": {
-      "name": "kCFNumberCGFloatType",
-      "type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "value": "16",
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 9
-      }
-    },
-    "kCFNumberFloatType": {
-      "name": "kCFNumberFloatType",
-      "type": {
-        "name": "unsigned int",
-        "kind": "primitive",
-        "size_of": 4,
-        "align_of": 4,
-        "location": null
-      },
-      "value": "12",
-      "location": {
-        "fileName": "CFNumber.h",
-        "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",
-        "line": 31,
-        "column": 9
-      }
-    },
     "kCFNumberSInt32Type": {
       "name": "kCFNumberSInt32Type",
       "type": {
@@ -2217,8 +2251,8 @@
         "column": 9
       }
     },
-    "kCFNumberNSIntegerType": {
-      "name": "kCFNumberNSIntegerType",
+    "kCFNumberSInt64Type": {
+      "name": "kCFNumberSInt64Type",
       "type": {
         "name": "unsigned int",
         "kind": "primitive",
@@ -2226,7 +2260,7 @@
         "align_of": 4,
         "location": null
       },
-      "value": "15",
+      "value": "4",
       "location": {
         "fileName": "CFNumber.h",
         "filePath": "Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h",

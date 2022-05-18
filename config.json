@@ -25,7 +25,9 @@
         "CFRelease",
         "CFNumberGetValue",
         "CFNumberGetType",
-        "CFBooleanGetValue"
+        "CFBooleanGetValue",
+        "CGRequestScreenCaptureAccess",
+        "CGPreflightScreenCaptureAccess"
       ],
       "macro_objects_allowed": [
         "kCGNullWindowID"
