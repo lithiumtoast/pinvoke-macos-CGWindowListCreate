@@ -19,19 +19,47 @@
         "CGWindowListCreateDescriptionFromArray",
         "CFArrayGetCount",
         "CFArrayGetValueAtIndex",
-        "CFDictionaryGetCount",
-        "CFDictionaryGetValue"
+        "CFDictionaryGetValueIfPresent",
+        "CFStringGetCStringPtr",
+        "CFStringCreateWithCString",
+        "CFRelease",
+        "CFNumberGetValue",
+        "CFNumberGetType",
+        "CFBooleanGetValue"
       ],
       "macro_objects_allowed": [
         "kCGNullWindowID"
       ],
       "enum_constants_allowed": [
-        "kCGWindowListOptionAll"
+        "kCGWindowListOptionAll",
+        "kCFNumberSInt8Type",
+        "kCFNumberSInt16Type",
+        "kCFNumberSInt32Type",
+        "kCFNumberSInt64Type",
+        "kCFNumberFloat32Type",
+        "kCFNumberFloat64Type",
+        "kCFNumberCharType",
+        "kCFNumberShortType",
+        "kCFNumberIntType",
+        "kCFNumberLongType",
+        "kCFNumberLongLongType",
+        "kCFNumberFloatType",
+        "kCFNumberDoubleType",
+        "kCFNumberCFIndexType",
+        "kCFNumberNSIntegerType",
+        "kCFNumberCGFloatType",
+        "kCGWindowIDCFNumberType"
       ]
     },
     "cs": {
       "output_file": "./CoreGraphics.cs",
       "namespace": "Apple",
-      "library_name": "/System/Library/Frameworks/CoreGraphics.framework/Versions/Current/CoreGraphics"
+      "library_name": "/System/Library/Frameworks/CoreGraphics.framework/Versions/Current/CoreGraphics",
+      "mapped_names": [
+        {
+          "source": "CFTypeRef",
+          "target": "void*"
+        }
+      ]
     }
   }
